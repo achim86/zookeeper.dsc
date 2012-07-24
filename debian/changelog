@@ -1,3 +1,9 @@
+zookeeper (3.3.5+dfsg1-2reddit2) natty; urgency=low
+
+  * downgrade debhelper in a desparate attempt to build on natty
+
+ -- Neil Williams <neil@reddit.com>  Mon, 23 Jul 2012 22:13:46 -0700
+
 zookeeper (3.3.5+dfsg1-2reddit1) natty; urgency=low
 
   * d/patches/fixes/ZOOKEEPER-1318: Raise proper exception on
