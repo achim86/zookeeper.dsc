@@ -1,3 +1,10 @@
+zookeeper (3.3.5+dfsg1-2reddit1) natty; urgency=low
+
+  * d/patches/fixes/ZOOKEEPER-1318: Raise proper exception on
+    get/exists/get_children etc. when session expired.
+
+ -- Neil Williams <neil@reddit.com>  Mon, 23 Jul 2012 17:02:07 -0700
+
 zookeeper (3.3.5+dfsg1-2) unstable; urgency=low
 
   * d/patches/fixes/ZOOKEEPER-1431: Fix up memory leak in zookeeper
